@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8000
 
 # Define environment variable
-ENV FLASK_APP=app.py
+ENV FLASK_APP=Chatbot\ \(Office\ 365\)\ Part\ 2.py 
 
 # Run app.py when the container launches
 CMD ["flask" , "run" , "--host=0.0.0.0", "--port=8000"]
